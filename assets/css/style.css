@@ -66,11 +66,38 @@ header .menu a:hover {
   color: rgb(235, 196, 66);
   font-weight: 600;
 }
-header .btn-sign-in {
-  min-width: 144px;
+.button-explore {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 192.69px;
+  height: 59.6px;
+  left: 217px;
+  top: 472px;
+
+  background: #124c5f;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 25px;
+  background-color: #0b4a5c; /* màu nền đậm */
+  color: #ffffff;
+  border-radius: 8px; /* bo góc cho nút */
+  font-size: 16px;
+  font-weight: bold;
 }
-.herder .action {
-  margin-left: 49px;
+
+.button-explore:hover {
+  background-color: #083946; /* màu khi hover */
 }
-.body {
+
+.button-explore .text-explore {
+  margin-right: 10px; /* khoảng cách giữa text và icon */
+}
+
+.button-explore .img-explore img {
+  width: 16px;
+  height: 16px;
 }

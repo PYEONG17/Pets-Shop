@@ -66,7 +66,7 @@ header .menu a:hover {
   color: rgb(235, 196, 66);
   font-weight: 600;
 }
-.button-explore {
+.background-head .button-explore {
   /* Rectangle 6 */
 
   position: absolute;
@@ -74,7 +74,8 @@ header .menu a:hover {
   height: 59.6px;
   left: 217px;
   top: 472px;
-
+}
+.button-explore {
   background: #124c5f;
   border-radius: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -100,4 +101,59 @@ header .menu a:hover {
 .button-explore .img-explore img {
   width: 16px;
   height: 16px;
+}
+.slider-text {
+  /* service heading */
+
+  position: absolute;
+  width: 261px;
+  height: 42.53px;
+  left: 168px;
+  top: 796px;
+}
+.slider-item {
+  /* services */
+
+  position: absolute;
+  width: 1124px;
+  height: 225px;
+  left: 158px;
+  top: 891px;
+}
+.slider-item .icon {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Align items vertically */
+}
+
+.slider-item .icon ul {
+  display: flex; /* Use flexbox for the unordered list */
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.slider-item .icon li {
+  margin: 0 10px; /* Add spacing between items */
+}
+
+.slider-item .icon a {
+  display: block; /* Make each link a block element to ensure proper spacing */
+}
+.about-section .button-explore {
+  /* btn-explore */
+
+  position: absolute;
+  width: 198.39px;
+  height: 59.6px;
+  left: 730px;
+  top: 1670px;
+}
+.about-section .button-video {
+  /* video */
+
+  position: absolute;
+  width: 173.86px;
+  height: 150.95px;
+  left: 449.09px;
+  top: 1348.88px;
 }
